@@ -1,0 +1,22 @@
+# MCP сервер — зависимости
+
+# MCP протокол (v1.x — для FastMCP)
+mcp>=1.0.0,<2.0.0
+
+# HTTP-клиент для инструментов
+requests>=2.31.0
+duckduckgo-search>=6.0.0
+
+# Генерация QR-кодов
+qrcode>=7.4.0
+pillow>=10.0.0
+
+# LLM через ProxyAPI
+openai>=1.0.0
+
+# Сервер (SSE transport)
+uvicorn>=0.27.0
+starlette>=0.36.0
+python-multipart>=0.0.9
+
+# sqlite3 — встроенный модуль Python, не требует установки
